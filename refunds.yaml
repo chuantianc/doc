@@ -158,6 +158,7 @@ definitions:
         example: CNY 
         type: string
         minLength: 0
+        maxLength: 10
       refund:
         title: 退款金额
         description: 退款金额，单位为分，只能为整数，不能超 过原订单支付金额，如果有使用券，后台会 按比例退。
@@ -236,7 +237,7 @@ definitions:
       currency:
         title: 货币类型
         description: 符合 ISO 4217 标准的三位字母代码，目前 只支持人民币：CNY
-        example:  
+        example: CNY
         type: string
       refund:
         title: 退款金额
