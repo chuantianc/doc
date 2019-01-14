@@ -189,6 +189,7 @@ definitions:
         description: appid 是商户在微信申请公众号成功后分配 的帐号 ID，需要机构侧有配置绑定关系才 能传
         example: wx8888888888888888 
         type: string
+        abc
       zq_mch_code:
         title: 转清商户号
         description: 验签后获得
